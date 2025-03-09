@@ -1,3 +1,5 @@
-Windows: git clone https://github.com/JakubLewand/nvim-config %USERPROFILE%\AppData\Local\nvim
+Apply config:
 
-Linux/MacOS: git clone https://github.com/JakubLewand/nvim-config ~/.config/nvim
+Windows: "git clone https://github.com/jakublewand/nvim-config %USERPROFILE%\AppData\Local\nvim"
+
+Linux/MacOS: "git clone https://github.com/jakublewand/nvim-config ~/.config/nvim"
