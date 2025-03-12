@@ -25,16 +25,6 @@ require("remaps")
 vim.opt.number = true
 vim.opt.relativenumber = true
 vim.opt.scrolloff = 10
---vim.api.nvim_create_autocmd("InsertEnter", {
---  callback = function()
---    vim.o.timeoutlen = 33
---  end
---})
---vim.api.nvim_create_autocmd("InsertLeave", {
---  callback = function()
---    vim.o.timeoutlen = 1000
---  end
---})
 
 -- Setup lazy.nvim
 require("lazy").setup({
